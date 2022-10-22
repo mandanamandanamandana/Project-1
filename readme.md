@@ -7,6 +7,7 @@
 - CSS 
 - JQuery
 - API
+- excalidraw
 
 ### Wireframes
 ![image](https://user-images.githubusercontent.com/113805276/197323618-5d72edb6-2116-411a-8019-1972017d53d5.png)
