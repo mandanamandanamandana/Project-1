@@ -1,4 +1,4 @@
-# The Name of My App
+# Here's a Cat Picture to Boost Your Seratonin
 
 ### Technologies Used
 
@@ -26,8 +26,5 @@
 [My Project Live Page](https://raw.githubusercontent.com/mandanamandanamandana/git-github.com-mandanamandanamandana-Project-1/master/Untitled-2022-10-22-0141.png)
 
 ### A briefing on this website
-- 
-- 
-- 
-- 
-- 
+- The user comes to the website, hits the button that says "Cat picture please!" and then they are shown a cat picture. 
+
