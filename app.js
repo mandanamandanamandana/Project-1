@@ -6,5 +6,11 @@ $.ajax("https://api.thecatapi.com/v1/images/search")
 .then((data) => {
     console.log(data)
     console.log(data[0].url)
+
+    //let's render the data to the screen
+    const $main = $('main')
+    $main.empty()
+
+    $main.html(`<img src="${data[0].url}">`)
 })
 
