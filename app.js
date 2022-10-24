@@ -14,3 +14,9 @@ $.ajax("https://api.thecatapi.com/v1/images/search")
     $main.html(`<img src="${data[0].url}">`)
 })
 
+$("form").on("submit", (event) => {
+    event.preventDefault()
+    inputRequest = $("input[type=text]").val()
+
+    imageRequest(inputRequest)
+})
