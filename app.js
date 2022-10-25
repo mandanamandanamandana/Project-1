@@ -20,3 +20,7 @@ $("form").on("submit", (event) => {
 
     imageRequest(inputRequest)
 })
+
+const $main = $("main")
+
+console.log($main)
