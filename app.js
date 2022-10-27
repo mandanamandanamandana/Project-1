@@ -11,7 +11,7 @@ $.ajax("https://api.thecatapi.com/v1/images/search")
     const $main = $('main')
     $main.empty()
 
-    $main.html(`<img src="${data[0].url}">`)
+    $main.html(`<img style='width: 800px; height: 500px' src="${data[0].url}">`)
 })
 
 $("form").on("submit", (event) => {
@@ -24,3 +24,12 @@ $("form").on("submit", (event) => {
 const $main = $("main")
 
 console.log($main)
+
+const $h2 = $("<h2>");
+console.log(h2)
+const div = document.querySelector("div")
+console.log(div) 
+div.appendChild(h2)
+h1.innerText = "hello world"
+h1.innerText()
+$h1.css("color", "blue")
