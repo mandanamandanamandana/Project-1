@@ -1,8 +1,10 @@
 h1 {
-    color: rosybrown
+    color: rosybrown;
+    margin: auto;
     
 }
 
 body {
     background-color: pink;
+    text-align: center;
 }
