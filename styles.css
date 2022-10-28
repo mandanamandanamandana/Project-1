@@ -8,3 +8,50 @@ body {
     background-color: pink;
     text-align: center;
 }
+
+button {
+    transition: font-size 1s;
+
+}
+
+button:hover {
+    font-size: 1.0001em;
+    animation: wow 3s;
+}
+
+
+@keyframes wow {
+    10% {
+        background-color:aqua
+    }
+    20% {
+        color:aquamarine
+    }
+    30% {
+        color:mediumaquamarine
+    }
+    40% {
+        color:mintcream
+    }
+    50% {
+        color:aqua
+    }
+    60% {
+        color:aqua
+    }
+    70% {
+        color:aqua
+    }
+    80% {
+        color:rgb(162, 145, 211)
+    }
+    90% {
+        color: palevioletred
+    }
+
+    100% {
+        color: plum
+    }
+    
+
+}
