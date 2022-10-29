@@ -11,7 +11,7 @@ $.ajax("https://api.thecatapi.com/v1/images/search")
     const $main = $('main')
     $main.empty()
 
-    $main.html(`<img style='width: 800px; height: 500px; border-radius: 100px;
+    $main.html(`<img style=' border-radius: 100px;
                      background-size: cover;' src="${data[0].url}">`)
 })
 

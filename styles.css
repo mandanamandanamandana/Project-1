@@ -5,8 +5,12 @@ h1 {
 }
 
 body {
+    display: flex;
     background-color: pink;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -16,9 +20,20 @@ button {
 }
 
 button:hover {
-    font-size: 1.0001em;
+    font-size: 1.0001rem;
     animation: wow 3s;
 }
+
+/* .img-container{
+    width: 600px;
+    height: 600px;
+    background: black;
+} */
+
+img{
+    max-width: 500px;
+}
+
 
 
 @keyframes wow {
@@ -54,5 +69,40 @@ button:hover {
         color: plum
     }
     
+}
 
+@media (max-width: 400px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    img{
+        width: 200px;
+    }
 }
